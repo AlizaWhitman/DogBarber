@@ -43,7 +43,7 @@ const PutApp = ({ classes, ...props }) => {
         setErrors,
         handleInputChange,
         resetForm
-    } = useForm(initialFieldValues, validation, props.setCurrentId)
+    } = useForm(initialFieldValues, validation)
 
 
     const [open, setOpen] = React.useState(false)
