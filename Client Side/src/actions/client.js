@@ -30,7 +30,7 @@ export const get = (data, onSuccess, onFailure) => dispatch => {
           
                 }
             })
-        .catch(onFailure())
+        .catch()
 }
 
 export const create = (data, onSuccess, onFailure) => dispatch => {
