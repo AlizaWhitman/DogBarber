@@ -64,7 +64,7 @@ const PostApp = ({ classes, ...props }) => {
         setErrors,
         handleInputChange,
         resetForm
-    } = useForm(initialFieldValues, validation, props.setCurrentId)
+    } = useForm(initialFieldValues, validation)
 
     return (
         <div>
