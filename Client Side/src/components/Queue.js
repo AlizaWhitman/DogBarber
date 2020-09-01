@@ -29,8 +29,6 @@ const styles = theme => ({
 
 const Queue = ({ classes, ...props }) => {
 
-    const [currentId, setCurrentId] = useState(0)
-
     const [userNameToFilter, setUserNameToFilter] = useState()
 
     const [dateToFilter, setDateToFilter] = useState()
@@ -128,7 +126,7 @@ const Queue = ({ classes, ...props }) => {
                                                                 <TableCell>
                                                                     <ButtonGroup variant="text">
                                                                         <DeleteApp {...({ record })} />
-                                                                        <PutApp {...({ currentId, setCurrentId, record })} />
+                                                                        <PutApp {...({ record })} />
                                                                     </ButtonGroup>
                                                                 </TableCell>
                                                             )
