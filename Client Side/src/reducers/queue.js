@@ -22,15 +22,12 @@ export const queue = (state = initialState, action) => {
             }
 
         case ACTION_TYPES.UPDATE:
-            window.alert(action.payload.id)
-            console.log("SHOW MW")
             return {
                 ...state,
                 list: state.list.map(x=>x.id == action.payload.id? action.payload: x)
             }
             
         case ACTION_TYPES.DELETE:
-            console.log(action.payload)
             return {
                 ...state,
                 list: state.list.filter(x=>x.id!=action.payload)
