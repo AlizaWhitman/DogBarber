@@ -21,12 +21,13 @@ export const get = (data, onSuccess, onFailure) => dispatch => {
                     type: ACTION_TYPES.GET,
                     payload: response.data,
                 })
-                if(response){
+                if(response.data){
                     localStorage.setItem("CurrentClient", JSON.stringify(response.data))
                     onSuccess()
                 } 
                 else{
                     onFailure()
+          
                 }
             })
         .catch(onFailure())
