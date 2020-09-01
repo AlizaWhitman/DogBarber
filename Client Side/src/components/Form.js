@@ -19,7 +19,6 @@ const Form = (initialFieldValues, validate, setCurrentId) => {
             ...initialFieldValues
         })
         setErrors({})
-        setCurrentId(0)
     }
     
     return {
