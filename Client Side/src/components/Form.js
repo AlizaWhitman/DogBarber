@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const Form = (initialFieldValues, validate, setCurrentId) => {
+const Form = (initialFieldValues, validate) => {
     const [values, setValues] = useState(initialFieldValues)
     const [errors, setErrors] = useState({})
 
