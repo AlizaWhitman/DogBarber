@@ -82,7 +82,7 @@ const SignUp = ({ ...props }) => {
         errors,
         setErrors,
         handleInputChange,
-    } = useForm(initialFieldValues, validation, props.setCurrentId)
+    } = useForm(initialFieldValues, validation)
 
     const handleSubmit = e => {
         e.preventDefault()
