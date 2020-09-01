@@ -78,6 +78,7 @@ const SignIn = ({ ...props }) => {
         errors,
         setErrors,
         handleInputChange,
+        resetForm,
     } = useForm(initialFieldValues, validation, props.setCurrentId)
 
     const handleSubmit = e => {
