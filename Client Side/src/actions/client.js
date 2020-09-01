@@ -25,6 +25,9 @@ export const get = (data, onSuccess, onFailure) => dispatch => {
                     localStorage.setItem("CurrentClient", JSON.stringify(response.data))
                     onSuccess()
                 } 
+                else{
+                    onFailure()
+                }
             })
         .catch(onFailure())
 }
