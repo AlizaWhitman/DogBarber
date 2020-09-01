@@ -36,7 +36,8 @@ const AppDetails = ({ classes, ...props }) => {
                     <DialogContentText id="alert-dialog-description">
                         Clients User Name: {props.record.userName}.
                         Clients Id: {props.record.clientId}.
-                        Appointment Hour:
+                        Booking Hour:
+                       
                         <TextField
                             type="datetime-local"
                             value={props.record.bookingHour}
@@ -45,7 +46,7 @@ const AppDetails = ({ classes, ...props }) => {
                                 shrink: true,
                             }}
                         />.
-                        Booking Hour:
+                        Appointment Hour:  
                         <TextField
                             type="datetime-local"
                             value={props.record.appointmentHour}
