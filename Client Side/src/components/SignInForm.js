@@ -88,7 +88,8 @@ const SignIn = ({ ...props }) => {
                 window.location.replace("/queue");
             }
             const onFailure = () => {
-                addToast("Sorry, but we have encountered an issue while connecting. Please make sure your details are correct, and if the problem continues please signup as a new client. Thank you", { appearance: 'failure' })
+                addToast("Sorry, but we have encountered an issue while connecting. Please make sure your details are correct, and if the problem continues please signup as a new client. Thank you", { appearance: 'error' })
+                resetForm()
             }
             props.get(values, onSuccess, onFailure);
         }
