@@ -94,7 +94,7 @@ const SignUp = ({ ...props }) => {
             const onFailure = () => {
                 addToast("Sorry, but we have encountered an issue while registering you in. Please try again later. Thank you!", { appearance: 'failure' })
             }
-            props.create(values, onSuccess, onFailure);
+            props.post(values, onSuccess, onFailure);
         }
     }
 
