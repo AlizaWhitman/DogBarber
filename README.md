@@ -8,4 +8,4 @@ Server Side: .Net Core
 
 DB: SQL
 
-Before running execute SQL scripts, modify the connection string and download node modules.
+Before running: Execute SQL scripts, modify the connection string, and download node modules.
