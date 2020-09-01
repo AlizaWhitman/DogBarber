@@ -79,7 +79,7 @@ const SignIn = ({ ...props }) => {
         setErrors,
         handleInputChange,
         resetForm,
-    } = useForm(initialFieldValues, validation, props.setCurrentId)
+    } = useForm(initialFieldValues, validation)
 
     const handleSubmit = e => {
         e.preventDefault()
