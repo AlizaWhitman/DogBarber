@@ -1,4 +1,4 @@
-﻿using Entities;
+using Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
