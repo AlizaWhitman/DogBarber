@@ -9,7 +9,7 @@ import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
 import { useToasts } from "react-toast-notifications";
 import * as actions from "../actions/queue";
-import AddIcon from "@material-ui/icons/Add";
+import AddIcon from '@material-ui/icons/Add';
 import useForm from "./Form";
 
 const initialFieldValues = {

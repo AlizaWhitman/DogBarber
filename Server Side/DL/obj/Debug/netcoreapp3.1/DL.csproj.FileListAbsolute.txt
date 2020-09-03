@@ -1,0 +1,13 @@
+C:\Users\beryl\Music\DogBarber\Server Side\DL\bin\Debug\netcoreapp3.1\DL.deps.json
+C:\Users\beryl\Music\DogBarber\Server Side\DL\bin\Debug\netcoreapp3.1\DL.runtimeconfig.json
+C:\Users\beryl\Music\DogBarber\Server Side\DL\bin\Debug\netcoreapp3.1\DL.runtimeconfig.dev.json
+C:\Users\beryl\Music\DogBarber\Server Side\DL\bin\Debug\netcoreapp3.1\DL.dll
+C:\Users\beryl\Music\DogBarber\Server Side\DL\bin\Debug\netcoreapp3.1\DL.pdb
+C:\Users\beryl\Music\DogBarber\Server Side\DL\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\beryl\Music\DogBarber\Server Side\DL\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\beryl\Music\DogBarber\Server Side\DL\obj\Debug\netcoreapp3.1\DL.csprojAssemblyReference.cache
+C:\Users\beryl\Music\DogBarber\Server Side\DL\obj\Debug\netcoreapp3.1\DL.AssemblyInfoInputs.cache
+C:\Users\beryl\Music\DogBarber\Server Side\DL\obj\Debug\netcoreapp3.1\DL.AssemblyInfo.cs
+C:\Users\beryl\Music\DogBarber\Server Side\DL\obj\Debug\netcoreapp3.1\DL.csproj.CopyComplete
+C:\Users\beryl\Music\DogBarber\Server Side\DL\obj\Debug\netcoreapp3.1\DL.dll
+C:\Users\beryl\Music\DogBarber\Server Side\DL\obj\Debug\netcoreapp3.1\DL.pdb

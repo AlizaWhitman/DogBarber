@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace DL
 {
-    public class QueueDL : IQueueDL
+    public class QueueDL : ControllerBase, IQueueDL
     {
         dogBarberShopDBContext _context;
 
@@ -48,14 +48,14 @@ namespace DL
             {
                 if (!appointmentExists(id))
                 {
-                    return null;
+                    return NotFound();
                 }
                 else
                 {
                     throw;
                 }
             }
-            return null;
+            return Ok(updatedQueue);
         }
 
 

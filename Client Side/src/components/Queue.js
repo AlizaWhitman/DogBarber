@@ -117,7 +117,15 @@ const Queue = ({ classes, ...props }) => {
                                                         {record.userName}
                                                     </TableCell>
                                                     <TableCell className={classes.tableCell}>
-                                                        {record.appointmentHour}
+                                                    <TextField
+                            type="datetime-local"
+                            value={record.appointmentHour}
+                            disabled="true"
+                            InputLabelProps={{
+                                shrink: true,
+                            }}
+                        />
+                                                       
                                                     </TableCell>
                                                     <AppDetails{...({ record })} />
                                                     {function () {
