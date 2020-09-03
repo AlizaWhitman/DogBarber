@@ -64,7 +64,7 @@ const PutApp = ({ classes, ...props }) => {
         handleClose();
         if (validation()) {
             const onSuccess = () => {
-                addToast("Submitted successfully", { appearance: 'success' })
+                addToast("Appointment Rescheduled!", { appearance: 'success' })
                 resetForm()
             }
             props.putApp(values.id, values, onSuccess);
